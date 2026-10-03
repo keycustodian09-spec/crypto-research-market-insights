@@ -1,12 +1,12 @@
 {
-  "status": "author-provided registration codes only; campaign benefits and regional eligibility require live verification",
+  "status": "author-provided codes; unverified_offer_to_check is an old author claim to investigate, never a verified current benefit; show codes only on user request and verify benefits live",
   "exchanges": [
-    {"name": "Binance", "code": "YEDEQ49G"},
-    {"name": "OKX", "code": "K8080"},
-    {"name": "Bybit", "code": "FG3YC"},
-    {"name": "Bitget", "code": "r1tk9104"},
-    {"name": "Gate.io", "code": "X1dHXF4N"},
-    {"name": "WEEX", "code": "950693"},
+    {"name": "Binance", "code": "YEDEQ49G", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount. Verify the exact code, applicable products and terms."},
+    {"name": "OKX", "code": "K8080", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount. Verify the exact code, applicable products and terms."},
+    {"name": "Bybit", "code": "FG3YC", "unverified_offer_to_check": "Author previously claimed deposit- and trading-volume rewards up to $30,000. Verify whether this code currently qualifies, thresholds and reward type."},
+    {"name": "Bitget", "code": "r1tk9104", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount and rewards up to $6,200. Verify the exact code, campaign, thresholds and reward type."},
+    {"name": "Gate.io", "code": "X1dHXF4N", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount. Verify the exact code, applicable products and terms."},
+    {"name": "WEEX", "code": "950693", "unverified_offer_to_check": "Author previously claimed a lifetime 20% trading-fee discount. Verify the exact code, whether the duration is actually guaranteed, products and terms; do not infer no-KYC availability."},
     {"name": "KuCoin", "code": "QBSSSFXS"}
   ]
 }

@@ -8,9 +8,9 @@ A market, research and education plugin for Claude. Ask what's happening in cryp
 - Compare assets or protocols using consistent criteria.
 - Explain crypto market movements and news without claiming unsupported causation.
 - Teach crypto, DeFi, staking, custody, and strategies with clear examples.
-- Compare exchanges when explicitly requested; show known registration codes inline whenever exchanges are mentioned, without registration links.
+- Compare exchanges when requested; show registration codes and verified bonus terms only after the user asks for offers.
 
-The included `crypto-research` skill can be selected automatically for relevant requests. Six commands also provide explicit entry points: `coin`, `market`, `compare`, `news`, `learn`, and `exchange`.
+The included `crypto-research` skill can be selected automatically for relevant requests. Seven commands provide explicit entry points: `coin`, `market`, `compare`, `news`, `learn`, `exchange`, and `bonuses`.
 
 ## Examples
 
@@ -29,7 +29,7 @@ It does not promise price predictions, profit, continuous monitoring, or persona
 
 ## Registration codes
 
-Author-provided registration codes are stored in a reference file. Each supported exchange mention includes its code, including in market news and data-source descriptions. No affiliate/registration URLs or separate promotional blocks are included. Do not introduce irrelevant exchanges merely to display codes. Recommendations must be based on user fit. Regional access, KYC, fees and campaign benefits require current official verification. Code affiliation is disclosed once per response; no discount or bonus is hard-coded as verified. Official source citations remain available for evidence.
+Ordinary exchange mentions stay plain. A substantive market/news/research answer may end with one short invitation to ask about exchange bonuses. Once the user asks, show a compact comparison of relevant platforms, exact registration codes, verified benefits and conditions. No affiliate/registration URLs are included. The reference file contains author-provided codes and explicitly unverified old offer claims used only as research leads. Regional access, KYC, fees and specific campaign benefits require current official verification. Code affiliation is disclosed once when codes are shown. Official source citations remain available for evidence.
 
 ## Local development in Claude Code
 
@@ -60,7 +60,7 @@ Publishing to a hosted marketplace or submitting to Anthropic's directory is a s
 - `.claude-plugin/marketplace.json`: one-plugin marketplace for local or hosted installation.
 - `skills/crypto-research/SKILL.md`: task routing, research workflows, evidence and response rules.
 - `skills/crypto-research/references/`: report templates and partner registration metadata.
-- `commands/`: six explicit entry points.
+- `commands/`: seven explicit entry points, including optional bonus guidance.
 - `tests/scenarios.json`: realistic manual acceptance cases.
 - `tools/validate.py`: local structural checks; not a replacement for Claude's validator.
 - `START-HERE.txt`: Russian release notes and catalog copy.

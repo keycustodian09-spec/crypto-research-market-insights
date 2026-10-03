@@ -1,7 +1,7 @@
 {
   "name": "crypto-research-market-insights",
   "displayName": "Crypto Research & Market Insights",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Understand today's crypto market, Bitcoin and Ethereum moves, key news and catalysts. Research projects, compare tokenomics, and learn crypto with dated sources and clear explanations.",
   "author": { "name": "Dmitry" },
   "keywords": ["crypto", "bitcoin", "ethereum", "research", "tokenomics", "market", "news", "education"]

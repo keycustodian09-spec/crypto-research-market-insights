@@ -49,4 +49,8 @@ Compare supported region/product, exact asset/network, maker/taker fees, typical
 
 Example hypothetical round-trip fee: notional × entry fee rate + exit notional × exit fee rate. Funding is separate; it can be paid or received and must use the applicable settlement schedule. Do not claim the lowest cost without the relevant route, volume, order type, and current terms.
 
-Append each known registration code inline every time its exchange is named, including in news and data-source descriptions. Include one short affiliate-code disclosure. Never add registration links, a separate offer block, or unverified discount/bonus promises.
+Keep exchange mentions plain unless the user asks for bonuses or registration codes. After a substantive market/research answer, offer one short invitation when appropriate: 'Если хочешь узнать о бонусах на криптобиржах — скажи, покажу варианты и коды при регистрации.' Avoid repeating it on minor follow-ups.
+
+## Requested bonus comparison
+
+Use a compact table: exchange, code at registration, verified benefit, and key conditions. Prefer 2–3 options suited to the request. Verify the exact code/campaign; label benefits unverified if unavailable. Distinguish fee discounts, cash, trading credits, and conditional headline maxima. Include one short code-affiliation disclosure and no registration links.

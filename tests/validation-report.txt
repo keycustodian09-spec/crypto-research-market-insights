@@ -1,7 +1,14 @@
 Validation report — 2026-10-04
-Current release: 0.1.1
+Current release: 0.1.2
 
 Current checks:
+— Local structural checker passed with seven commands, thirteen acceptance scenarios, and a code directory with explicitly unverified offer research leads.
+— One independent assistant session loaded the revised skill and answered two requests: a hypothetical market overview and a direct bonus/code request without live verification.
+— The market answer used a plain exchange name, no codes or signup links, and exactly one short optional invitation.
+— The requested bonus answer used exact codes in a compact table, marked benefits unverified, did not present the directory's old headline amounts as current, and included one code-affiliation disclosure.
+— This is an instruction-following check, not an actual Claude runtime test. Claude installation, command loading and live retrieval remain untested.
+
+Historical checks — release 0.1.1, 2026-10-04:
 — Local structural checker passed after removing registration URLs and updating the code rules.
 — One independent assistant session loaded the revised skill and produced a hypothetical 24-hour market briefing from supplied BTC/ETH, Binance volume and OKX funding data.
 — Both exchange mentions included the exact inline registration code; no registration links or separate promotional block appeared.
