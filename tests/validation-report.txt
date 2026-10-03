@@ -1,5 +1,14 @@
-Validation report — 2026-10-03
-Release: 0.1.0
+Validation report — 2026-10-04
+Current release: 0.1.1
+
+Current checks:
+— Local structural checker passed after removing registration URLs and updating the code rules.
+— One independent assistant session loaded the revised skill and produced a hypothetical 24-hour market briefing from supplied BTC/ETH, Binance volume and OKX funding data.
+— Both exchange mentions included the exact inline registration code; no registration links or separate promotional block appeared.
+— The answer labeled the inputs hypothetical, did not invent news or causality, and included one short affiliate-code disclosure.
+— This is an instruction-following check, not an actual Claude runtime test. Claude installation, command loading and live retrieval remain untested.
+
+Historical checks — release 0.1.0, 2026-10-03:
 
 Local structural checks: PASSED
 — JSON parsing, plugin/marketplace identity and source path.

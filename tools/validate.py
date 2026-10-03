@@ -4,7 +4,6 @@ import json
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
 
 import yaml
 
@@ -25,7 +24,7 @@ def read_json(path):
 manifest = read_json(".claude-plugin/plugin.json")
 marketplace = read_json(".claude-plugin/marketplace.json")
 check(bool(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", manifest.get("name", ""))), "Invalid plugin name")
-check(manifest.get("version") == "0.1.0", "Unexpected release version")
+check(manifest.get("version") == "0.1.1", "Unexpected release version")
 check(bool(manifest.get("description")), "Missing plugin description")
 check(bool(manifest.get("author", {}).get("name")), "Missing author")
 entries = marketplace.get("plugins", [])
@@ -70,8 +69,7 @@ codes = {"Binance":"YEDEQ49G", "OKX":"K8080", "Bybit":"FG3YC", "Bitget":"r1tk910
 check(len(directory.get("exchanges", [])) == len(codes), "Referral directory count mismatch")
 for exchange in directory.get("exchanges", []):
     check(exchange.get("code") == codes.get(exchange.get("name")), "Referral code mismatch")
-    url = urlparse(exchange.get("registration_url", ""))
-    check(url.scheme == "https" and bool(url.netloc), "Invalid registration URL")
+    check(set(exchange) == {"name", "code"}, "Only exchange names and codes are allowed")
 
 cases = read_json("tests/scenarios.json")
 check(isinstance(cases, list) and len(cases) >= 10, "Missing acceptance cases")

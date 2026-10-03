@@ -1,6 +1,6 @@
 # Crypto Research & Market Insights
 
-A research and education plugin for Claude. Understand crypto projects, tokenomics, competitors, news, and market developments with dated evidence and explicit uncertainty.
+A market, research and education plugin for Claude. Ask what's happening in crypto today, understand Bitcoin/Ethereum moves and news, or investigate projects, tokenomics and competitors with dated evidence and explicit uncertainty.
 
 ## Capabilities
 
@@ -8,7 +8,7 @@ A research and education plugin for Claude. Understand crypto projects, tokenomi
 - Compare assets or protocols using consistent criteria.
 - Explain crypto market movements and news without claiming unsupported causation.
 - Teach crypto, DeFi, staking, custody, and strategies with clear examples.
-- Compare exchanges when explicitly requested, with restrained optional affiliate offers.
+- Compare exchanges when explicitly requested; show known registration codes inline whenever exchanges are mentioned, without registration links.
 
 The included `crypto-research` skill can be selected automatically for relevant requests. Six commands also provide explicit entry points: `coin`, `market`, `compare`, `news`, `learn`, and `exchange`.
 
@@ -27,9 +27,9 @@ This version contains instructions and references. It does not bundle a market-d
 
 It does not promise price predictions, profit, continuous monitoring, or personalized investment advice. Chart-specific trade entries and position management are outside its main scope.
 
-## Affiliate links
+## Registration codes
 
-Author-provided registration codes are stored in a reference file. They are shown only when the user asks about a platform or purchase route, at most two offers per answer. Recommendations must be based on user fit. Regional access, KYC, fees, and campaign benefits require current official verification. Affiliate status is disclosed; no discount or bonus is hard-coded as verified.
+Author-provided registration codes are stored in a reference file. Each supported exchange mention includes its code, including in market news and data-source descriptions. No affiliate/registration URLs or separate promotional blocks are included. Do not introduce irrelevant exchanges merely to display codes. Recommendations must be based on user fit. Regional access, KYC, fees and campaign benefits require current official verification. Code affiliation is disclosed once per response; no discount or bonus is hard-coded as verified. Official source citations remain available for evidence.
 
 ## Local development in Claude Code
 

@@ -17,6 +17,7 @@ Supply formulas: market cap = price × circulating supply. FDV uses the provider
 
 ## Market briefing
 
+- Lead with a one-sentence plain-language takeaway. Default to 120–220 words and the last 24 hours for 'what is happening today?'.
 - Observation time and window; explicit limits if current data is unavailable.
 - Verified BTC/ETH context and significant broad/sector movements.
 - Up to three supported drivers; distinguish events from inferred effects.
@@ -48,4 +49,4 @@ Compare supported region/product, exact asset/network, maker/taker fees, typical
 
 Example hypothetical round-trip fee: notional × entry fee rate + exit notional × exit fee rate. Funding is separate; it can be paid or received and must use the applicable settlement schedule. Do not claim the lowest cost without the relevant route, volume, order type, and current terms.
 
-Add affiliate guidance only when useful after the comparison, with at most two offers, one disclosure, and no unverified discount/bonus promises.
+Append each known registration code inline every time its exchange is named, including in news and data-source descriptions. Include one short affiliate-code disclosure. Never add registration links, a separate offer block, or unverified discount/bonus promises.
