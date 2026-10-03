@@ -1,7 +1,12 @@
 Validation report — 2026-10-04
-Current release: 0.1.2
+Current release: 0.1.3
 
 Current checks:
+— Local structural checker passed after the invitation wording change.
+— Both the main skill and report templates use the exact Russian invitation: 'Если хочешь узнать о бонусах на криптобиржах — только скажи!'
+— No behavioral or bonus-offer verification was added for this wording-only revision.
+
+Historical checks — release 0.1.2, 2026-10-04:
 — Local structural checker passed with seven commands, thirteen acceptance scenarios, and a code directory with explicitly unverified offer research leads.
 — One independent assistant session loaded the revised skill and answered two requests: a hypothetical market overview and a direct bonus/code request without live verification.
 — The market answer used a plain exchange name, no codes or signup links, and exactly one short optional invitation.
