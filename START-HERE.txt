@@ -1,0 +1,39 @@
+Crypto Research & Market Insights — версия 0.1.0
+
+Плагин для исследования криптопроектов и понимания рынка.
+Основные задачи: монеты и токеномика, новости и их влияние, сравнение проектов, рыночный обзор по запросу, обучение простыми словами.
+
+Отличие от Crypto Spot Futures Analyzer:
+первый помогает разобрать график/сделку; этот помогает разобраться в проекте, событиях и рынке.
+
+В пакете:
+— один основной навык с шестью сценариями работы;
+— шесть команд: coin, market, compare, news, learn, exchange;
+— структура плагина и marketplace;
+— правила актуальности, источников и проверки слухов;
+— твои ссылки и коды, максимум два предложения только при выборе биржи/места покупки;
+— примеры для проверки.
+
+Для текущих цен и новостей нужен доступный в сессии Claude веб-поиск или другой источник данных. Сам промпт не подключает котировки. Если доступа нет, плагин обязан сказать об этом и предложить работу с предоставленными данными. Встроенных платных API и серверной части в этой версии нет.
+
+Описание для каталога (English):
+Research crypto projects, compare tokenomics, and understand market moves with dated sources and clear explanations. Explore Bitcoin, Ethereum, altcoins, DeFi, staking, competitors, catalysts, and risks. Get on-demand market briefings and beginner-friendly guidance, with exchange comparisons when requested. Current information depends on the tools available in your Claude session.
+
+Короткое описание (English):
+Crypto project research, tokenomics comparisons, market news, and clear explanations backed by dated sources.
+
+Стартовые запросы (English):
+1. Research Ethereum: utility, tokenomics, competitors, and risks.
+2. Compare Ethereum and Solana using fundamental criteria.
+3. Explain the main crypto market events from the last 24 hours.
+4. What does this token unlock mean for supply and holders?
+5. Explain liquid staking in simple terms with an example.
+
+Перед публикацией:
+1. Создать отдельный репозиторий и загрузить весь пакет, включая папку .claude-plugin.
+2. Проверить оба manifest официальной командой Claude и установить плагин для пробного запуска.
+3. Пройти сценарии из tests/scenarios.json; отдельно проверить свежий поиск и вызов команд в нужном интерфейсе Claude.
+4. Подготовить изображение для карточки и публичные ссылки на документацию/политику, если их запрашивает форма подачи. В текущем manifest эти ссылки не выдуманы и не заполнены.
+5. Подать второй плагин на публикацию. До этого он не считается опубликованным.
+
+Важно: скидки, размеры бонусов, «без KYC» и доступность по странам не зафиксированы как гарантии. Плагин проверяет их перед утверждением. Все исходные коды сохранены; код KuCoin взят из примера в предоставленном промпте.

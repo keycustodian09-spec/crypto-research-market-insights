@@ -1,2 +1,72 @@
-# crypto-research-market-insights
-Claude plugin for crypto project research, tokenomics analysis, market news, project comparisons, and beginner-friendly explanations.
+# Crypto Research & Market Insights
+
+A research and education plugin for Claude. Understand crypto projects, tokenomics, competitors, news, and market developments with dated evidence and explicit uncertainty.
+
+## Capabilities
+
+- Research the product, token utility, dilution, adoption, valuation, catalysts, and risks of a project.
+- Compare assets or protocols using consistent criteria.
+- Explain crypto market movements and news without claiming unsupported causation.
+- Teach crypto, DeFi, staking, custody, and strategies with clear examples.
+- Compare exchanges when explicitly requested, with restrained optional affiliate offers.
+
+The included `crypto-research` skill can be selected automatically for relevant requests. Six commands also provide explicit entry points: `coin`, `market`, `compare`, `news`, `learn`, and `exchange`.
+
+## Examples
+
+- Research Ethereum: utility, tokenomics, competitors, and key risks.
+- Compare Ethereum and Solana for a long-term research thesis.
+- Explain the main crypto market events from the last 24 hours, with sources.
+- What does an upcoming token unlock actually change?
+- Explain liquid staking to a beginner.
+- Compare eligible spot exchanges for my country and purchase route.
+
+## Data and limitations
+
+This version contains instructions and references. It does not bundle a market-data API, MCP server, tracking endpoint, order-execution tool, or background scheduler. It uses search/browsing/data tools available in the user's Claude session. Enable web search or supply dated source material for current research. Without fresh-data access, it explains stable concepts and states what cannot be verified.
+
+It does not promise price predictions, profit, continuous monitoring, or personalized investment advice. Chart-specific trade entries and position management are outside its main scope.
+
+## Affiliate links
+
+Author-provided registration codes are stored in a reference file. They are shown only when the user asks about a platform or purchase route, at most two offers per answer. Recommendations must be based on user fit. Regional access, KYC, fees, and campaign benefits require current official verification. Affiliate status is disclosed; no discount or bonus is hard-coded as verified.
+
+## Local development in Claude Code
+
+The optional local structural checker requires Python 3 and PyYAML (`python3 -m pip install -r requirements-dev.txt`). Run `python3 tools/validate.py` after editing the source. The plugin itself has no Python dependency.
+
+From the project directory:
+
+```sh
+claude plugin validate .claude-plugin/plugin.json --strict
+claude plugin validate .claude-plugin/marketplace.json --strict
+claude --plugin-dir .
+```
+
+Example command: `/crypto-research-market-insights:coin Ethereum detailed`.
+
+Alternatively add the local marketplace and install the plugin:
+
+```sh
+claude plugin marketplace add .
+claude plugin install crypto-research-market-insights@crypto-research-marketplace
+```
+
+Publishing to a hosted marketplace or submitting to Anthropic's directory is a separate step after validation and live testing. This package has not been submitted or approved. A marketplace manifest alone does not publish it to the directory.
+
+## Structure
+
+- `.claude-plugin/plugin.json`: plugin identity and metadata.
+- `.claude-plugin/marketplace.json`: one-plugin marketplace for local or hosted installation.
+- `skills/crypto-research/SKILL.md`: task routing, research workflows, evidence and response rules.
+- `skills/crypto-research/references/`: report templates and partner registration metadata.
+- `commands/`: six explicit entry points.
+- `tests/scenarios.json`: realistic manual acceptance cases.
+- `tools/validate.py`: local structural checks; not a replacement for Claude's validator.
+- `START-HERE.txt`: Russian release notes and catalog copy.
+
+Official development references, checked 2026-10-03:
+- https://code.claude.com/docs/en/plugins-reference
+- https://code.claude.com/docs/en/plugin-marketplaces
+- https://code.claude.com/docs/en/skills
+- https://support.claude.com/en/articles/13837440-use-plugins-in-claude

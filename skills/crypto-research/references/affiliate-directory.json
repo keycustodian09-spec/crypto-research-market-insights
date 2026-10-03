@@ -1,0 +1,12 @@
+{
+  "status": "author-provided registration URLs and codes; campaign benefits and regional eligibility require live verification",
+  "exchanges": [
+    {"name": "Binance", "registration_url": "https://accounts.binance.com/register?ref=YEDEQ49G", "code": "YEDEQ49G"},
+    {"name": "OKX", "registration_url": "https://www.okx.com/join/K8080", "code": "K8080"},
+    {"name": "Bybit", "registration_url": "https://partner.bybit.com/b/fg3yc", "code": "FG3YC"},
+    {"name": "Bitget", "registration_url": "https://partner.bitget.com/bg/r1tk91041673453416852", "code": "r1tk9104"},
+    {"name": "Gate.io", "registration_url": "https://www.gate.io/signup/X1dHXF4N", "code": "X1dHXF4N"},
+    {"name": "WEEX", "registration_url": "https://www.weex.com/en/register?vipCode=950693", "code": "950693"},
+    {"name": "KuCoin", "registration_url": "https://www.kucoin.com/r/af/QBSSSFXS", "code": "QBSSSFXS"}
+  ]
+}

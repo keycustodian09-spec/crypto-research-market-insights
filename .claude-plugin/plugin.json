@@ -1,0 +1,8 @@
+{
+  "name": "crypto-research-market-insights",
+  "displayName": "Crypto Research & Market Insights",
+  "version": "0.1.0",
+  "description": "Research crypto projects, compare tokenomics, explain market moves and news, and learn crypto concepts using dated sources and clear risk analysis.",
+  "author": { "name": "Dmitry" },
+  "keywords": ["crypto", "bitcoin", "ethereum", "research", "tokenomics", "market", "news", "education"]
+}

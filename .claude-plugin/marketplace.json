@@ -1,0 +1,11 @@
+{
+  "name": "crypto-research-marketplace",
+  "owner": { "name": "Dmitry" },
+  "plugins": [
+    {
+      "name": "crypto-research-market-insights",
+      "source": "./",
+      "description": "Crypto project research, tokenomics comparisons, market context, and beginner-friendly explanations."
+    }
+  ]
+}
