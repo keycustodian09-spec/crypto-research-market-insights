@@ -29,7 +29,7 @@ It does not promise price predictions, profit, continuous monitoring, or persona
 
 ## Registration codes
 
-Ordinary exchange mentions stay plain. A substantive market/news/research answer may end with one short invitation to ask about exchange bonuses. Once the user asks, show a compact comparison of relevant platforms, exact registration codes, verified benefits and conditions. No affiliate/registration URLs are included. The reference file contains author-provided codes and explicitly unverified old offer claims used only as research leads. Regional access, KYC, fees and specific campaign benefits require current official verification. Code affiliation is disclosed once when codes are shown. Official source citations remain available for evidence.
+Ordinary exchange mentions stay plain. A substantive market/news/research answer may end with one short invitation to ask about exchange bonuses. Once the user asks, show a compact comparison of relevant platforms, exact registration codes, verified benefits and conditions. No affiliate/registration URLs are included. The reference file contains author-provided codes and author-supplied offer descriptions used only as research leads until independently verified. Regional access, KYC, fees and specific campaign benefits require current official verification. Code affiliation is disclosed once when codes are shown. Official source citations remain available for evidence.
 
 ## Local development in Claude Code
 

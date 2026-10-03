@@ -1,9 +1,9 @@
 {
-  "status": "author-provided codes; unverified_offer_to_check is an old author claim to investigate, never a verified current benefit; show codes only on user request and verify benefits live",
+  "status": "author-provided codes; unverified_offer_to_check is an author-supplied offer to investigate, never a verified current benefit; show codes only on user request and verify benefits live",
   "exchanges": [
-    {"name": "Binance", "code": "YEDEQ49G", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount. Verify the exact code, applicable products and terms."},
-    {"name": "OKX", "code": "K8080", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount. Verify the exact code, applicable products and terms."},
-    {"name": "Bybit", "code": "FG3YC", "unverified_offer_to_check": "Author previously claimed deposit- and trading-volume rewards up to $30,000. Verify whether this code currently qualifies, thresholds and reward type."},
+    {"name": "Binance", "code": "YEDEQ49G", "unverified_offer_to_check": "Author supplied a 20% trading-fee discount on 2026-10-04. Verify the exact code, applicable products and terms."},
+    {"name": "OKX", "code": "K8080", "unverified_offer_to_check": "Author supplied a 20% trading-fee discount on 2026-10-04. Verify the exact code, applicable products and terms."},
+    {"name": "Bybit", "code": "FG3YC", "unverified_offer_to_check": "Author supplied a bonus up to $30,000 for deposit and trading volume on 2026-10-04. The maximum is conditional, not an automatic signup payment. Verify whether this code currently qualifies, deposit and volume thresholds, and reward type."},
     {"name": "Bitget", "code": "r1tk9104", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount and rewards up to $6,200. Verify the exact code, campaign, thresholds and reward type."},
     {"name": "Gate.io", "code": "X1dHXF4N", "unverified_offer_to_check": "Author previously claimed a 20% trading-fee discount. Verify the exact code, applicable products and terms."},
     {"name": "WEEX", "code": "950693", "unverified_offer_to_check": "Author previously claimed a lifetime 20% trading-fee discount. Verify the exact code, whether the duration is actually guaranteed, products and terms; do not infer no-KYC availability."},
