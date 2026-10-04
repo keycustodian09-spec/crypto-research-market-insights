@@ -24,7 +24,7 @@ def read_json(path):
 manifest = read_json(".claude-plugin/plugin.json")
 marketplace = read_json(".claude-plugin/marketplace.json")
 check(bool(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", manifest.get("name", ""))), "Invalid plugin name")
-check(manifest.get("version") == "1.0.0", "Unexpected release version")
+check(manifest.get("version") == "1.0.1", "Unexpected release version")
 check(bool(manifest.get("description")), "Missing plugin description")
 check(bool(manifest.get("author", {}).get("name")), "Missing author")
 entries = marketplace.get("plugins", [])

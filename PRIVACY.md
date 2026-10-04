@@ -1,6 +1,6 @@
 # Privacy policy
 
-Crypto Research & Market Insights
+Crypto & Bitcoin Analyst — Charts & Research
 
 Effective date: 4 October 2026
 

@@ -1,7 +1,11 @@
 Validation report — 2026-10-04
-Current release: 1.0.0
+Current release: 1.0.1
 
 Current checks:
+— Updated the display title, concise description, 19 relevant discovery tags, README headings, practical examples and FAQ; listing metadata agrees between plugin and marketplace manifests.
+— Local structural checks passed. This verifies packaging, not directory search ranking or external search-engine indexing. No new behavioral change or Claude runtime test.
+
+Historical checks — release 1.0.0, 2026-10-04:
 — Release metadata, MIT license, SVG icon, documentation/support/privacy/terms links and user-facing policy files prepared for directory submission.
 — Local structural and package-layout checks passed; official checklist rechecked on 2026-10-04.
 — Claude CLI is not installed; no official CLI validation, live Claude loading, portal validation or submission is claimed.

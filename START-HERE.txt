@@ -1,4 +1,4 @@
-Crypto Research & Market Insights — версия 1.0.0
+Crypto & Bitcoin Analyst — Charts & Research — версия 1.0.1
 
 Профессиональный консультант по криптовалютам: короткие ответы простыми словами, фундаментальные финансовые принципы и актуальные рыночные данные. Объясняет выводы, варианты и риски.
 Основные задачи: монеты и токеномика, графики и индикаторы, условные сценарии цены, новости и их влияние, сравнение проектов, рыночный обзор по запросу, обучение простыми словами.
@@ -17,23 +17,25 @@ Crypto Research & Market Insights — версия 1.0.0
 Для текущих цен и новостей нужен доступный в сессии Claude веб-поиск или другой источник данных. Сам промпт не подключает котировки. Если доступа нет, плагин обязан сказать об этом и предложить работу с предоставленными данными. Встроенных платных API и серверной части в этой версии нет.
 
 Описание для каталога (English):
-Professional crypto guidance in plain language, combining fundamentals, current market evidence and chart analysis. Understand coins, tokenomics, trends, key levels and conditional scenarios with clear reasoning and risks. Current information depends on the tools available in your Claude session.
+Analyze Bitcoin (BTC), Ethereum (ETH) and altcoins with crypto market insights, chart analysis, tokenomics and news. Clear explanations, conditional scenarios and risk assessment. Current information depends on the tools available in your Claude session.
 
 Короткое описание (English):
-Plain-language crypto guidance combining fundamentals, charts, current evidence, and conditional scenarios.
+Bitcoin, Ethereum and altcoin analysis: charts, tokenomics, crypto news and conditional market scenarios.
 
 Стартовые запросы (English):
 1. What's happening in the crypto market today?
 2. Why did Bitcoin move, and what is confirmed?
 3. What crypto news and events matter this week?
-4. Research Ethereum: utility, tokenomics, competitors, and risks.
+4. Analyze Bitcoin (BTC): fundamentals, chart and possible price scenarios.
 5. Analyze this coin's chart: trend, key levels, and possible scenarios.
 
 Перед публикацией:
-1. Репозиторий и версия 1.0.0 подготовлены. Для подачи: https://claude.ai/directory/manage → Submit new → Plugin bundle.
+1. Репозиторий и версия 1.0.1 подготовлены. Для подачи: https://claude.ai/directory/manage → Submit new → Plugin bundle.
 2. Указать keycustodian09-spec/crypto-research-market-insights, путь плагина оставить пустым, ветка main. Нажать Validate. Локальный структурный проверяющий скрипт пройден; Claude CLI в среде разработки отсутствует.
 3. Пройти сценарии из tests/scenarios.json; отдельно проверить свежий поиск и вызов команд в нужном интерфейсе Claude.
 4. Иконка, лицензия MIT, документация, поддержка, конфиденциальность и условия добавлены в пакет и manifest. Проверить их в Listing details.
 5. Подать второй плагин на публикацию. До этого он не считается опубликованным.
 
 Важно: скидки, размеры бонусов, «без KYC» и доступность по странам не зафиксированы как гарантии. Плагин проверяет их перед утверждением. Все исходные коды сохранены; код KuCoin взят из примера в предоставленном промпте.
+
+Поисковая подготовка: название, описание, discovery tags и README содержат релевантные термины по реальным функциям. Позиции и сроки индексации поисковыми системами не гарантированы. Идентификатор плагина и ссылка на репозиторий прежние.

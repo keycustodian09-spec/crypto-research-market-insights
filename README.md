@@ -1,31 +1,59 @@
-# Crypto Research & Market Insights
+# Crypto & Bitcoin Analyst — Charts & Research
 
-![Crypto Research & Market Insights](assets/icon.svg)
+![Crypto & Bitcoin Analyst — Charts & Research](assets/icon.svg)
 
-A professional crypto financial-consulting assistant for Claude. Get concise, plain-language answers grounded in financial fundamentals and current evidence: understand today's market, evaluate projects and tokenomics, analyze charts, discuss conditional price scenarios, compare options, and assess risks. It explains its conclusions and the conditions that could change them.
+A crypto analysis assistant for Claude covering **Bitcoin (BTC), Ethereum (ETH), Solana (SOL) and other altcoins**. Get plain-language explanations of the crypto market, technical analysis, fundamental research and tokenomics. Discuss chart screenshots, crypto news and conditional price scenarios using the evidence available in your session.
 
-## Capabilities
+## Bitcoin, Ethereum and altcoin research
 
-- Research the product, token utility, dilution, adoption, valuation, catalysts, and risks of a project.
-- Analyze chart screenshots or available candle data: structure, levels, volume, moving averages, RSI/MACD and volatility where relevant.
-- Combine technical observations with fundamentals and catalysts to explain conditional scenarios.
-- Compare assets or protocols using consistent criteria.
-- Explain crypto market movements and news without claiming unsupported causation.
-- Teach crypto, DeFi, staking, custody, and strategies with clear examples.
-- Compare exchanges when requested; show registration codes and verified bonus terms only after the user asks for offers.
+Understand what a cryptocurrency project does, why its token matters, and what supports or weakens its investment thesis. Compare token utility, adoption, competitors, market cap, fully diluted valuation, supply, dilution, token unlocks and risks. Distinguish a successful product from value that actually reaches token holders.
 
-The included `crypto-research` skill can be selected automatically for relevant requests. Eight commands provide explicit entry points: `coin`, `chart`, `market`, `compare`, `news`, `learn`, `exchange`, and `bonuses`.
+## Crypto chart analysis and technical indicators
 
-## Examples
+Analyze supplied chart screenshots or available candle data: price trends, support and resistance, trading volume, moving averages (SMA/EMA), RSI, MACD and volatility. Select relevant tools rather than listing every indicator. Explain how the chart evidence connects to the coin's fundamentals and the broader crypto market. Exact indicator readings require readable values or adequate data and calculation tools.
+
+## Crypto market news and price scenarios
+
+Ask what is happening in the crypto market today, why Bitcoin or Ethereum moved, or what events matter next. Current briefings use dated sources when retrieval is available. Explore conditional bullish, bearish and sideways scenarios, with the levels or events that would confirm or invalidate them. A scenario is an explanation of possibilities, not a guaranteed price prediction.
+
+## Crypto education, DeFi and risk management
+
+Learn DCA, staking, DeFi, custody, diversification and other crypto concepts through clear examples. Compare coins, protocols or eligible exchanges using consistent criteria. Exchange registration codes and verified bonus terms are shown only after you ask for offers.
+
+## Example questions
 
 - What can you do? Give me a short overview and an example question.
-- Research Ethereum: utility, tokenomics, competitors, and key risks.
-- Compare Ethereum and Solana for a long-term research thesis.
-- Explain the main crypto market events from the last 24 hours, with sources.
-- Discuss this ETH chart: trend, key levels and what could happen next.
-- What does an upcoming token unlock actually change?
-- Explain liquid staking to a beginner.
-- Compare eligible spot exchanges for my country and purchase route.
+- Analyze Bitcoin (BTC): fundamentals, chart structure and possible price scenarios.
+- What's happening in the crypto market today?
+- Why did Bitcoin move, and which explanations are confirmed?
+- Research Ethereum (ETH): tokenomics, adoption, valuation and risks.
+- Compare Ethereum and Solana using fundamental analysis.
+- Analyze this altcoin chart: support, resistance, RSI, MACD and key uncertainties.
+- How could a token unlock affect supply and selling pressure?
+- Explain DCA or liquid staking in simple terms.
+- Compare eligible crypto exchanges for my country and purchase route.
+
+## Frequently asked questions
+
+### Can it analyze a Bitcoin chart screenshot?
+
+Yes. It can discuss visible BTC chart structure, price zones, volume and readable indicators. It explains missing or unclear inputs and does not invent unseen readings.
+
+### Can it explain what could happen to a coin's price?
+
+Yes. It combines relevant technical analysis, fundamental factors and dated market evidence into conditional scenarios. It explains what would change the view rather than promising a future price or guaranteed trading signal.
+
+### Does it have live crypto prices and paid analytics built in?
+
+Current prices and news depend on search, browsing or data tools available in your Claude session. The plugin does not bundle a live price feed or a paid analytics subscription. Without fresh access, it can analyze timestamped user data and explain stable concepts.
+
+### Is it suitable for crypto beginners?
+
+Yes. It explains unfamiliar terms when first used and defaults to short, practical answers. Ask for a deeper report when you want more detail.
+
+## Commands
+
+The `crypto-research` skill can be selected automatically for relevant requests. Eight commands provide explicit entry points: `coin`, `chart`, `market`, `compare`, `news`, `learn`, `exchange`, and `bonuses`.
 
 ## Data and limitations
 
@@ -57,7 +85,7 @@ claude plugin marketplace add .
 claude plugin install crypto-research-market-insights@crypto-research-marketplace
 ```
 
-Publishing to a hosted marketplace or submitting to Anthropic's directory is a separate step after validation and live testing. Version 1.0.0 is prepared for submission; Anthropic directory validation and approval are separate and are not claimed here. A marketplace manifest alone does not publish it to the directory.
+Publishing to a hosted marketplace or submitting to Anthropic's directory is a separate step after validation and live testing. Version 1.0.1 is prepared for submission; Anthropic directory validation and approval are separate and are not claimed here. A marketplace manifest alone does not publish it to the directory.
 
 ## Structure
 
