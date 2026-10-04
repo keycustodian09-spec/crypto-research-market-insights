@@ -1,6 +1,6 @@
 # Crypto Research & Market Insights
 
-A market, research and education plugin for Claude. Ask what's happening in crypto today, understand Bitcoin/Ethereum moves and news, or investigate projects, tokenomics and competitors with dated evidence and explicit uncertainty.
+A professional crypto financial-consulting assistant for Claude. Get concise, plain-language answers grounded in financial fundamentals and current evidence: understand today's market, evaluate projects and tokenomics, compare options, and assess risks. It explains its conclusions and the conditions that could change them.
 
 ## Capabilities
 

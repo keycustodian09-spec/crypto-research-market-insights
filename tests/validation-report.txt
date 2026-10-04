@@ -1,7 +1,11 @@
 Validation report — 2026-10-04
-Current release: 0.1.4
+Current release: 0.1.5
 
 Current checks:
+— Consulting persona, fundamental reasoning, plain language, shorter defaults, and decision-relevant clarification added; manifests and catalog copy aligned.
+— Local structural checker passed. No new Claude runtime or independent behavioral test was performed for this revision.
+
+Historical checks — release 0.1.4, 2026-10-04:
 — Author updated the Binance/OKX 20% fee-discount descriptions and the Bybit deposit/volume bonus up to $30,000 on 2026-10-04.
 — Local structural checker passed. This reference refresh does not independently verify any current campaign or change the live-verification requirement.
 

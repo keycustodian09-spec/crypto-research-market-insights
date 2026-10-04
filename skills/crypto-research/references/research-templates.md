@@ -1,6 +1,6 @@
 # Research templates
 
-Use only the sections that serve the request. Do not force a full report on a short question. Mark missing or unverified fields explicitly.
+For a normal consultation, give a direct answer, a fundamental reason, a practical implication, and the main risk or condition in plain language. Use only the sections that serve the request. Do not force a full report on a short question. Mark missing or unverified fields explicitly.
 
 ## Project report
 

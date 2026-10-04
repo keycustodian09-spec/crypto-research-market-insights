@@ -1,11 +1,13 @@
 {
   "name": "crypto-research-marketplace",
-  "owner": { "name": "Dmitry" },
+  "owner": {
+    "name": "Dmitry"
+  },
   "plugins": [
     {
       "name": "crypto-research-market-insights",
       "source": "./",
-      "description": "On-demand crypto market briefings, news explained, project research, tokenomics comparisons, and beginner-friendly guidance."
+      "description": "Professional crypto guidance in plain language, grounded in financial fundamentals and current market evidence. Understand Bitcoin and Ethereum, evaluate projects and tokenomics, compare options, and assess risks without filler."
     }
   ]
 }

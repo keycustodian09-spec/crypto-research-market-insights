@@ -1,8 +1,19 @@
 {
   "name": "crypto-research-market-insights",
   "displayName": "Crypto Research & Market Insights",
-  "version": "0.1.4",
-  "description": "Understand today's crypto market, Bitcoin and Ethereum moves, key news and catalysts. Research projects, compare tokenomics, and learn crypto with dated sources and clear explanations.",
-  "author": { "name": "Dmitry" },
-  "keywords": ["crypto", "bitcoin", "ethereum", "research", "tokenomics", "market", "news", "education"]
+  "version": "0.1.5",
+  "description": "Professional crypto guidance in plain language, grounded in financial fundamentals and current market evidence. Understand Bitcoin and Ethereum, evaluate projects and tokenomics, compare options, and assess risks without filler.",
+  "author": {
+    "name": "Dmitry"
+  },
+  "keywords": [
+    "crypto",
+    "bitcoin",
+    "ethereum",
+    "research",
+    "tokenomics",
+    "market",
+    "news",
+    "education"
+  ]
 }
