@@ -16,6 +16,7 @@ The included `crypto-research` skill can be selected automatically for relevant 
 
 ## Examples
 
+- What can you do? Give me a short overview and an example question.
 - Research Ethereum: utility, tokenomics, competitors, and key risks.
 - Compare Ethereum and Solana for a long-term research thesis.
 - Explain the main crypto market events from the last 24 hours, with sources.
