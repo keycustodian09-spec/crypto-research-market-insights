@@ -1,8 +1,8 @@
 {
   "name": "crypto-research-market-insights",
   "displayName": "Crypto Research & Market Insights",
-  "version": "0.1.5",
-  "description": "Professional crypto guidance in plain language, grounded in financial fundamentals and current market evidence. Understand Bitcoin and Ethereum, evaluate projects and tokenomics, compare options, and assess risks without filler.",
+  "version": "0.1.6",
+  "description": "Professional crypto guidance in plain language, combining fundamentals, current market evidence and chart analysis. Understand coins, tokenomics, trends, key levels and conditional scenarios with clear reasoning and risks.",
   "author": {
     "name": "Dmitry"
   },
@@ -14,6 +14,8 @@
     "tokenomics",
     "market",
     "news",
-    "education"
+    "education",
+    "technical-analysis",
+    "charts"
   ]
 }

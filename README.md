@@ -1,22 +1,25 @@
 # Crypto Research & Market Insights
 
-A professional crypto financial-consulting assistant for Claude. Get concise, plain-language answers grounded in financial fundamentals and current evidence: understand today's market, evaluate projects and tokenomics, compare options, and assess risks. It explains its conclusions and the conditions that could change them.
+A professional crypto financial-consulting assistant for Claude. Get concise, plain-language answers grounded in financial fundamentals and current evidence: understand today's market, evaluate projects and tokenomics, analyze charts, discuss conditional price scenarios, compare options, and assess risks. It explains its conclusions and the conditions that could change them.
 
 ## Capabilities
 
 - Research the product, token utility, dilution, adoption, valuation, catalysts, and risks of a project.
+- Analyze chart screenshots or available candle data: structure, levels, volume, moving averages, RSI/MACD and volatility where relevant.
+- Combine technical observations with fundamentals and catalysts to explain conditional scenarios.
 - Compare assets or protocols using consistent criteria.
 - Explain crypto market movements and news without claiming unsupported causation.
 - Teach crypto, DeFi, staking, custody, and strategies with clear examples.
 - Compare exchanges when requested; show registration codes and verified bonus terms only after the user asks for offers.
 
-The included `crypto-research` skill can be selected automatically for relevant requests. Seven commands provide explicit entry points: `coin`, `market`, `compare`, `news`, `learn`, `exchange`, and `bonuses`.
+The included `crypto-research` skill can be selected automatically for relevant requests. Eight commands provide explicit entry points: `coin`, `chart`, `market`, `compare`, `news`, `learn`, `exchange`, and `bonuses`.
 
 ## Examples
 
 - Research Ethereum: utility, tokenomics, competitors, and key risks.
 - Compare Ethereum and Solana for a long-term research thesis.
 - Explain the main crypto market events from the last 24 hours, with sources.
+- Discuss this ETH chart: trend, key levels and what could happen next.
 - What does an upcoming token unlock actually change?
 - Explain liquid staking to a beginner.
 - Compare eligible spot exchanges for my country and purchase route.
@@ -25,7 +28,7 @@ The included `crypto-research` skill can be selected automatically for relevant 
 
 This version contains instructions and references. It does not bundle a market-data API, MCP server, tracking endpoint, order-execution tool, or background scheduler. It uses search/browsing/data tools available in the user's Claude session. Enable web search or supply dated source material for current research. Without fresh-data access, it explains stable concepts and states what cannot be verified.
 
-It does not promise price predictions, profit, continuous monitoring, or personalized investment advice. Chart-specific trade entries and position management are outside its main scope.
+It does not promise price predictions, profit, continuous monitoring, or personalized investment advice. Chart discussion and conditional scenarios are supported using visible or retrieved evidence. Exact indicator calculations require sufficient candle data and available calculation tools; paid data access is not bundled.
 
 ## Registration codes
 
@@ -60,7 +63,7 @@ Publishing to a hosted marketplace or submitting to Anthropic's directory is a s
 - `.claude-plugin/marketplace.json`: one-plugin marketplace for local or hosted installation.
 - `skills/crypto-research/SKILL.md`: task routing, research workflows, evidence and response rules.
 - `skills/crypto-research/references/`: report templates and partner registration metadata.
-- `commands/`: seven explicit entry points, including optional bonus guidance.
+- `commands/`: eight explicit entry points, including optional bonus guidance.
 - `tests/scenarios.json`: realistic manual acceptance cases.
 - `tools/validate.py`: local structural checks; not a replacement for Claude's validator.
 - `START-HERE.txt`: Russian release notes and catalog copy.

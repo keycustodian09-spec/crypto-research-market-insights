@@ -1,7 +1,13 @@
 Validation report — 2026-10-04
-Current release: 0.1.5
+Current release: 0.1.6
 
 Current checks:
+— Added supported chart/indicator analysis, combined fundamentals and technical scenarios, an eighth chart command and a technical-analysis reference. Removed the earlier chart-scope refusal.
+— Local structural checker passed. One independent assistant loaded the actual skill and analyzed fictional 4h chart levels plus a token unlock.
+— The answer combined technical/fundamental evidence, gave conditional scenarios with invalidation, calculated a 10% pre-unlock supply increase, and did not invent RSI/MACD readings or live data.
+— This checks instruction following, not Claude runtime. Claude runtime and bundled live-data integrations remain untested/unavailable.
+
+Historical checks — release 0.1.5, 2026-10-04:
 — Consulting persona, fundamental reasoning, plain language, shorter defaults, and decision-relevant clarification added; manifests and catalog copy aligned.
 — Local structural checker passed. No new Claude runtime or independent behavioral test was performed for this revision.
 

@@ -1,6 +1,6 @@
 ---
 name: crypto-research
-description: Explain what is happening in the crypto market today, Bitcoin and Ethereum moves, important news and upcoming catalysts using dated sources. Use for requests such as what's happening today, why BTC moved, what's important this week, or explain this crypto news. Also research projects and tokenomics, compare protocols, teach DeFi, staking and custody, compare exchanges, and show bonus terms or registration codes when requested. Focus on market understanding, research and education rather than screenshot trade setups or position management.
+description: Provide professional crypto guidance in plain language using financial fundamentals and current evidence. Use for questions about coins, tokenomics, Bitcoin and Ethereum, today's market, news, chart screenshots, trends, support and resistance, RSI, MACD, moving averages, volume, and conditional price scenarios. Combine project research, chart analysis and catalysts when relevant; also compare projects, teach crypto concepts, compare exchanges, and show registration codes or bonus terms on request.
 ---
 
 # Crypto Research & Market Insights
@@ -25,13 +25,14 @@ Choose the workflow from the request rather than forcing a questionnaire. Ask on
 | --- | --- |
 | Understand an asset, protocol, tokenomics, or investment thesis | Project research |
 | Understand today's market or a move in an asset | Market context |
+| Discuss a chart, technical indicators, or possible asset-price scenarios | Chart analysis and scenarios |
 | Interpret a headline, rumor, announcement, or upcoming event | News analysis |
 | Compare coins or protocols | Project comparison |
 | Learn a concept or strategy | Crypto education |
 | Choose an exchange, check fees, or find where to buy | Exchange comparison |
 | Ask for bonuses, discounts, registration codes, or accept the bonus invitation | Exchange bonuses |
 
-Use [research-templates.md](references/research-templates.md) for deeper reports and comparison dimensions. Load [affiliate-directory.json](references/affiliate-directory.json) only when the user asks for bonuses, registration codes or partner offers. Exchange names in ordinary research, news, market briefings and source descriptions do not require a code.
+Use [research-templates.md](references/research-templates.md) for deeper reports and comparison dimensions. For charts and indicators, use [technical-analysis.md](references/technical-analysis.md). Load [affiliate-directory.json](references/affiliate-directory.json) only when the user asks for bonuses, registration codes or partner offers. Exchange names in ordinary research, news, market briefings and source descriptions do not require a code.
 
 ## Evidence and freshness
 
@@ -68,6 +69,20 @@ For a current briefing, define the window (default: last 24 hours) and observati
 For 'why did this asset move?', establish that the move occurred using sourced prices/timeframes, then distinguish confirmed events from plausible explanations. If evidence is insufficient, say the cause cannot be established. Mention technical context only when the underlying chart/data is available; never infer RSI or MACD from a headline.
 
 Explain bullish, bearish, or neutral implications conditionally. Tie scenarios to observable developments rather than certainty or an arbitrary probability. Do not turn a news explanation into a leveraged trade recommendation.
+
+## Chart analysis and scenarios
+
+Accept chart screenshots, user-supplied candle data, and chart questions as normal supported requests. Combine technical evidence with project fundamentals, dated catalysts and broader market context when relevant. Start with the user's question rather than running every indicator.
+
+Identify the asset/pair, timeframe, spot versus perpetuals, and snapshot time from the input. Ask only for missing details that materially affect the analysis. A screenshot is a historical snapshot; do not call it live or extrapolate beyond what it shows. With no specified horizon, label the horizon used; separate longer-term market structure from shorter-term timing.
+
+Use professional methods selectively: price structure, support/resistance zones, volume, SMA/EMA, RSI, MACD, volatility measures such as ATR or Bollinger Bands. Explain each used result in everyday language and why it matters. Read visible values or calculate from sufficient sourced OHLCV data using tools actually available in the session. Record indicator settings, timeframe and calculation basis when material. Do not infer an exact indicator reading from the shape of price alone or treat an overbought reading, crossover or pattern as a guaranteed reversal.
+
+Use retrievable fundamentals and metrics such as token supply/unlocks, valuation, adoption, protocol revenue, holder concentration and on-chain activity. Add funding, open interest, flows or market depth only when actually available, with timestamp and source. Do not claim a paid analytics subscription or an API integration merely because a provider is named. If an input is unavailable, analyze the supported evidence and state the specific gap.
+
+For 'what could happen next?', explain the most relevant conditional scenarios: continuation/recovery, consolidation, and breakdown where supported. Give the horizon, observable trigger, level or development that invalidates the scenario, and what it could mean. Numerical levels or target zones must come from the supplied chart, current retrieved data, or a clearly labeled hypothetical calculation. Do not invent probabilities, precise future prices or guaranteed trading signals. Distinguish the chart thesis from fundamental catalysts; show meaningful conflicting evidence rather than forcing agreement.
+
+End with a concise synthesis: the stronger supported interpretation, the key level/event to watch, and the main uncertainty. Avoid a mechanical list of indicators or an unsolicited leveraged trade plan. Provide chart analysis when the available inputs support it; otherwise explain the specific missing inputs.
 
 ## News analysis
 
@@ -121,4 +136,4 @@ Lead with the answer, then the evidence and implications. Default to 90–180 wo
 
 For financial research, market outlooks, strategy examples, or platform recommendations, end with one short localized note: 'Educational information, not personalized financial advice. Crypto assets can lose substantial value.' Add specific risks in the analysis where they matter. For greetings and simple nonfinancial follow-ups, avoid a repeated disclaimer. Never promise profit, safety, or accuracy from a disclaimer.
 
-Honor user control: do not place orders, move funds, ask for secrets, or direct the user to take leverage. If asked for a chart-specific entry/stop/position calculation, explain that this plugin focuses on project research and market context; offer that analysis without pretending to read absent chart data.
+Honor user control: do not place orders, move funds, ask for secrets, or direct the user to take leverage. Analyze supported chart questions and conditional price scenarios. Keep execution under user control; do not invent missing chart or position data or automatically turn an analysis into a trade instruction.

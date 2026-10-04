@@ -1,14 +1,14 @@
-Crypto Research & Market Insights — версия 0.1.5
+Crypto Research & Market Insights — версия 0.1.6
 
 Профессиональный консультант по криптовалютам: короткие ответы простыми словами, фундаментальные финансовые принципы и актуальные рыночные данные. Объясняет выводы, варианты и риски.
-Основные задачи: монеты и токеномика, новости и их влияние, сравнение проектов, рыночный обзор по запросу, обучение простыми словами.
+Основные задачи: монеты и токеномика, графики и индикаторы, условные сценарии цены, новости и их влияние, сравнение проектов, рыночный обзор по запросу, обучение простыми словами.
 
 Отличие от Crypto Spot Futures Analyzer:
-первый помогает разобрать график/сделку; этот помогает разобраться в проекте, событиях и рынке.
+первый сосредоточен на сделках и позициях; этот консультирует по монете в целом: фундаментал, график, события, рынок и возможные сценарии.
 
 В пакете:
 — один основной навык с рыночными, исследовательскими и образовательными сценариями;
-— семь команд: coin, market, compare, news, learn, exchange, bonuses;
+— восемь команд: coin, chart, market, compare, news, learn, exchange, bonuses;
 — структура плагина и marketplace;
 — правила актуальности, источников и проверки слухов;
 — в обычном обзоре только короткое предложение узнать о бонусах; после запроса — биржи, коды при регистрации, проверенные бонусы и условия, без регистрационных ссылок;
@@ -17,17 +17,17 @@ Crypto Research & Market Insights — версия 0.1.5
 Для текущих цен и новостей нужен доступный в сессии Claude веб-поиск или другой источник данных. Сам промпт не подключает котировки. Если доступа нет, плагин обязан сказать об этом и предложить работу с предоставленными данными. Встроенных платных API и серверной части в этой версии нет.
 
 Описание для каталога (English):
-Professional crypto guidance in plain language, grounded in financial fundamentals and current market evidence. Understand Bitcoin and Ethereum, evaluate projects and tokenomics, compare options, and assess risks without filler. Current information depends on the tools available in your Claude session.
+Professional crypto guidance in plain language, combining fundamentals, current market evidence and chart analysis. Understand coins, tokenomics, trends, key levels and conditional scenarios with clear reasoning and risks. Current information depends on the tools available in your Claude session.
 
 Короткое описание (English):
-Clear crypto guidance grounded in financial fundamentals, current market evidence, and practical risk analysis.
+Plain-language crypto guidance combining fundamentals, charts, current evidence, and conditional scenarios.
 
 Стартовые запросы (English):
 1. What's happening in the crypto market today?
 2. Why did Bitcoin move, and what is confirmed?
 3. What crypto news and events matter this week?
 4. Research Ethereum: utility, tokenomics, competitors, and risks.
-5. Compare Ethereum and Solana using fundamental criteria.
+5. Analyze this coin's chart: trend, key levels, and possible scenarios.
 
 Перед публикацией:
 1. Создать отдельный репозиторий и загрузить весь пакет, включая папку .claude-plugin.
