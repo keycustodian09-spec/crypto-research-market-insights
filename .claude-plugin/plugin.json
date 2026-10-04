@@ -1,7 +1,7 @@
 {
   "name": "crypto-research-market-insights",
   "displayName": "Crypto Research & Market Insights",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Professional crypto guidance in plain language, combining fundamentals, current market evidence and chart analysis. Understand coins, tokenomics, trends, key levels and conditional scenarios with clear reasoning and risks.",
   "author": {
     "name": "Dmitry"
@@ -17,5 +17,13 @@
     "education",
     "technical-analysis",
     "charts"
-  ]
+  ],
+  "repository": "https://github.com/keycustodian09-spec/crypto-research-market-insights",
+  "homepage": "https://github.com/keycustodian09-spec/crypto-research-market-insights#readme",
+  "license": "MIT",
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://github.com/keycustodian09-spec/crypto-research-market-insights#readme",
+  "supportUrl": "https://github.com/keycustodian09-spec/crypto-research-market-insights/blob/main/SUPPORT.md",
+  "privacyPolicyUrl": "https://github.com/keycustodian09-spec/crypto-research-market-insights/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/keycustodian09-spec/crypto-research-market-insights/blob/main/TERMS.md"
 }

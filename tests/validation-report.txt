@@ -1,7 +1,12 @@
 Validation report — 2026-10-04
-Current release: 0.1.7
+Current release: 1.0.0
 
 Current checks:
+— Release metadata, MIT license, SVG icon, documentation/support/privacy/terms links and user-facing policy files prepared for directory submission.
+— Local structural and package-layout checks passed; official checklist rechecked on 2026-10-04.
+— Claude CLI is not installed; no official CLI validation, live Claude loading, portal validation or submission is claimed.
+
+Historical checks — release 0.1.7, 2026-10-04:
 — Added a short capability-summary route and Russian example for onboarding questions, with natural localization and a clear data-access limitation.
 — Local structural checker passed. No new independent behavior or Claude runtime test for this small prose addition.
 

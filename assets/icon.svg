@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+<title id="title">Crypto Research and Market Insights</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0F1E35"/><stop offset="1" stop-color="#172F48"/></linearGradient><linearGradient id="line" x2="1"><stop stop-color="#56D5C3"/><stop offset="1" stop-color="#79B6FF"/></linearGradient></defs>
+<rect width="512" height="512" rx="112" fill="url(#bg)"/>
+<path d="M116 370H396M116 132V370" stroke="#47607B" stroke-width="12" stroke-linecap="round"/>
+<path d="M144 330L211 257L275 290L367 176" fill="none" stroke="url(#line)" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="367" cy="176" r="46" fill="#172F48" stroke="#79B6FF" stroke-width="15"/>
+<path d="M367 154V198M354 162H375C387 162 387 176 375 176H358M358 176H378C390 176 390 190 378 190H354" fill="none" stroke="#E8F3FF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

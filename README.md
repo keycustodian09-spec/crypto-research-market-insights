@@ -1,5 +1,7 @@
 # Crypto Research & Market Insights
 
+![Crypto Research & Market Insights](assets/icon.svg)
+
 A professional crypto financial-consulting assistant for Claude. Get concise, plain-language answers grounded in financial fundamentals and current evidence: understand today's market, evaluate projects and tokenomics, analyze charts, discuss conditional price scenarios, compare options, and assess risks. It explains its conclusions and the conditions that could change them.
 
 ## Capabilities
@@ -42,8 +44,7 @@ The optional local structural checker requires Python 3 and PyYAML (`python3 -m 
 From the project directory:
 
 ```sh
-claude plugin validate .claude-plugin/plugin.json --strict
-claude plugin validate .claude-plugin/marketplace.json --strict
+claude plugin validate . --strict
 claude --plugin-dir .
 ```
 
@@ -56,7 +57,7 @@ claude plugin marketplace add .
 claude plugin install crypto-research-market-insights@crypto-research-marketplace
 ```
 
-Publishing to a hosted marketplace or submitting to Anthropic's directory is a separate step after validation and live testing. This package has not been submitted or approved. A marketplace manifest alone does not publish it to the directory.
+Publishing to a hosted marketplace or submitting to Anthropic's directory is a separate step after validation and live testing. Version 1.0.0 is prepared for submission; Anthropic directory validation and approval are separate and are not claimed here. A marketplace manifest alone does not publish it to the directory.
 
 ## Structure
 
@@ -69,8 +70,20 @@ Publishing to a hosted marketplace or submitting to Anthropic's directory is a s
 - `tools/validate.py`: local structural checks; not a replacement for Claude's validator.
 - `START-HERE.txt`: Russian release notes and catalog copy.
 
-Official development references, checked 2026-10-03:
+## Support, privacy and license
+
+- [Support](SUPPORT.md)
+- [Privacy policy](PRIVACY.md)
+- [Terms of use](TERMS.md)
+- [MIT License](LICENSE)
+
+Intended for adults aged 18 and over. The author does not receive Claude conversations through this instruction-only plugin. Tool requests are handled by Claude and any tools available in the user's session; the privacy policy explains the distinction.
+
+Official development references, checked 2026-10-04:
 - https://code.claude.com/docs/en/plugins-reference
 - https://code.claude.com/docs/en/plugin-marketplaces
 - https://code.claude.com/docs/en/skills
 - https://support.claude.com/en/articles/13837440-use-plugins-in-claude
+
+- https://claude.com/docs/plugins/pre-submission-checklist
+- https://claude.com/docs/plugins/submit
