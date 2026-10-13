@@ -18,7 +18,7 @@ Ask what is happening in the crypto market today, why Bitcoin or Ethereum moved,
 
 ## Crypto education, DeFi and risk management
 
-Learn DCA, staking, DeFi, custody, diversification and other crypto concepts through clear examples. Compare coins, protocols or eligible exchanges using consistent criteria. Exchange registration codes and verified bonus terms are shown only after you ask for offers.
+Learn DCA, staking, DeFi, custody, diversification and other crypto concepts through clear examples. Compare coins, protocols or eligible exchanges using consistent criteria. Exchange comparisons stay research-first; when you ask about exchanges, fees, KYC or registration, 1–2 relevant registration codes may appear briefly with disclosure.
 
 ## Example questions
 
@@ -63,7 +63,7 @@ It does not promise price predictions, profit, continuous monitoring, or persona
 
 ## Registration codes
 
-Ordinary exchange mentions stay plain. A substantive market/news/research answer may end with one short invitation to ask about exchange bonuses. Once the user asks, show a compact comparison of relevant platforms, exact registration codes, verified benefits and conditions. No affiliate/registration URLs are included. The reference file contains author-provided codes and author-supplied offer descriptions used only as research leads until independently verified. Regional access, KYC, fees and specific campaign benefits require current official verification. Code affiliation is disclosed once when codes are shown. Official source citations remain available for evidence.
+Ordinary coin, market, news and chart research stays free of partner promotion. For exchange-selection, fee, KYC or registration questions, the comparison comes first and 1–2 relevant registration codes may appear briefly with disclosure. Explicit bonus requests can show a compact comparison of verified benefits and conditions. No affiliate/registration URLs are included. The reference file contains author-provided codes and author-supplied offer descriptions used only as research leads until independently verified. Regional access, KYC, fees and specific campaign benefits require current official verification. Code affiliation is disclosed once when codes are shown. Official source citations remain available for evidence.
 
 ## Local development in Claude Code
 
@@ -85,7 +85,7 @@ claude plugin marketplace add .
 claude plugin install crypto-research-market-insights@crypto-research-marketplace
 ```
 
-Publishing to a hosted marketplace or submitting to Anthropic's directory is a separate step after validation and live testing. Version 1.0.1 is prepared for submission; Anthropic directory validation and approval are separate and are not claimed here. A marketplace manifest alone does not publish it to the directory.
+Publishing to a hosted marketplace or submitting to Anthropic's directory is a separate step after validation and live testing. Version 1.0.2 is prepared for submission; Anthropic directory validation and approval are separate and are not claimed here. A marketplace manifest alone does not publish it to the directory.
 
 ## Structure
 
@@ -107,7 +107,7 @@ Publishing to a hosted marketplace or submitting to Anthropic's directory is a s
 
 Intended for adults aged 18 and over. The author does not receive Claude conversations through this instruction-only plugin. Tool requests are handled by Claude and any tools available in the user's session; the privacy policy explains the distinction.
 
-Official development references, checked 2026-10-04:
+Official development references, reviewed for v1.0.2:
 - https://code.claude.com/docs/en/plugins-reference
 - https://code.claude.com/docs/en/plugin-marketplaces
 - https://code.claude.com/docs/en/skills
