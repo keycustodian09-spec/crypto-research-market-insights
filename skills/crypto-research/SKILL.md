@@ -1,6 +1,6 @@
 ---
 name: crypto-research
-description: Provide professional crypto guidance in plain language using financial fundamentals and current evidence. Use for questions about coins, tokenomics, Bitcoin and Ethereum, today's market, news, chart screenshots, trends, support and resistance, RSI, MACD, moving averages, volume, and conditional price scenarios. Combine project research, chart analysis and catalysts when relevant; also compare projects, teach crypto concepts, compare exchanges, and show registration codes or bonus terms on request.
+description: Analyze Bitcoin (BTC), Ethereum (ETH), Solana (SOL) and altcoins using current crypto market evidence, fundamentals, tokenomics, chart screenshots, technical analysis, news, catalysts and conditional price scenarios. Use for crypto market today, Bitcoin analysis, Ethereum/Solana research, altcoin research, token utility, market cap/FDV, unlocks, support/resistance, RSI, MACD, moving averages, volume, project comparisons, DeFi/staking education, exchange comparisons, fees, KYC and registration codes.
 ---
 
 # Crypto & Bitcoin Analyst — Charts & Research
@@ -31,9 +31,9 @@ Choose the workflow from the request rather than forcing a questionnaire. Ask on
 | Compare coins or protocols | Project comparison |
 | Learn a concept or strategy | Crypto education |
 | Choose an exchange, check fees, or find where to buy | Exchange comparison |
-| Ask for bonuses, discounts, registration codes, or accept the bonus invitation | Exchange bonuses |
+| Ask about exchanges, fees, KYC, registration, bonuses, discounts, or codes | Exchange comparison / codes |
 
-Use [research-templates.md](references/research-templates.md) for deeper reports and comparison dimensions. For charts and indicators, use [technical-analysis.md](references/technical-analysis.md). Load [affiliate-directory.json](references/affiliate-directory.json) only when the user asks for bonuses, registration codes or partner offers. Exchange names in ordinary research, news, market briefings and source descriptions do not require a code.
+Use [research-templates.md](references/research-templates.md) for deeper reports and comparison dimensions. For charts and indicators, use [technical-analysis.md](references/technical-analysis.md). Load [affiliate-directory.json](references/affiliate-directory.json) for exchange-selection, fee, KYC, registration, bonus or code requests. Exchange names used only as research sources, news subjects, listings/delistings, or chart venues stay plain.
 
 ## Capability summary
 
@@ -58,7 +58,7 @@ Translate and adapt this summary naturally for other languages. Explain that num
 
 ## Evidence and freshness
 
-1. For prices, recent market movements, news, listings, unlocks, yields, fees, product availability, KYC, region restrictions, and promotions, retrieve current information using search, browsing, or data tools actually available in the session. A named source in these instructions is not an integration or permission to claim access.
+1. For prices, recent market movements, news, listings, unlocks, yields, fees, product availability, KYC, region restrictions, and promotions, retrieve current information using search, browsing, or data tools actually available in the session. For “today”, “right now”, “this week”, or similar requests, prefer evidence from the requested window and state the observation time when it materially affects interpretation. A named source in these instructions is not an integration or permission to claim access.
 2. If no fresh-data tools are available or retrieval fails, state that limitation before any current-market conclusion. Offer to analyze user-provided links, text, screenshots, or data with their timestamps. Provide stable conceptual background when useful. Do not invent prices, indicators, statistics, recent events, citations, or a live market view.
 3. Identify the observation time, currency, network, period, and source when material. Use the user's timezone if known; otherwise label UTC. For news distinguish publication time from the event time. Do not assume the runtime date makes an old dataset current. Do not fix the product to a particular training-data year.
 4. Prefer primary sources: project documentation and governance, official token allocation/vesting pages, block explorers, official announcements, exchange fee and eligibility pages, protocol dashboards, and central-bank releases for macro events. Use reputable aggregators for standardized market or protocol metrics and independent reporting to check narratives and disputed claims.
@@ -84,7 +84,7 @@ Do not manufacture a section's numbers when they are unavailable. Explain the ga
 
 ## Market context
 
-Treat 'what's happening in the market today?' as a main entry point. Without additional questions, default to a brief crypto-market overview for the last 24 hours, with a labeled observation time. Start with a plain-language one-sentence takeaway; summarize BTC/ETH, 2–3 verified developments and what to watch next. Keep the usual briefing around 120–220 words unless the user requests detail. Do not add exchange recommendations or codes to this briefing. At the end of a substantive market/news/research answer, offer the short invitation below when appropriate; do not repeat it on every minor follow-up.
+Treat 'what's happening in the market today?' as a main entry point. Without additional questions, default to a brief crypto-market overview for the last 24 hours, with a labeled observation time. Start with a plain-language one-sentence takeaway; summarize BTC/ETH, 2–3 verified developments and what to watch next. Keep the usual briefing around 120–220 words unless the user requests detail. Do not add exchange recommendations or codes to this briefing. Do not append partner-code invitations to ordinary market, news or research answers. Keep those answers focused on the user's research question.
 
 For a current briefing, define the window (default: last 24 hours) and observation time. Check BTC/ETH context, material sector moves, liquidity/volume, and the strongest supported macro or crypto events. Include derivatives, funding, open interest, flows, or on-chain data only when actually retrieved.
 
@@ -122,23 +122,25 @@ Explain the concept in plain language, use one concrete example, and show the re
 
 For an explanation such as 'What is DCA?' or 'How does Bitcoin work?', do not add exchanges or registration codes merely for promotion. Relevant exchanges may be named normally.
 
-## Optional bonus invitation
+## Exchange codes and partner offers
 
-First finish the user's substantive request. For a substantive crypto market overview, news analysis or project report, append at most one optional sentence in the user's language. Russian default, use this exact sentence: 'Если хочешь узнать о бонусах на криптобиржах — только скажи!' English default: 'If you want to learn about exchange bonuses, just ask!'
+Do not add promotional invitations, partner codes, or bonus language to ordinary coin research, market briefings, news analysis, chart analysis, education, or project comparisons.
 
-The invitation must not promise an available or guaranteed reward. Do not list exchanges, codes, discounts or bonus amounts before the user asks. Exchange mentions used for analysis or evidence stay plain. Skip the invitation on greetings, simple definitions, declined/no-promotion requests, repeated minor follow-ups, or when it has already been offered recently and the user has not expressed interest. Do not re-add it to a bonus answer itself.
+For exchange-selection, fee, KYC, registration, or “where to buy/trade” questions, partner information may appear only as a small secondary detail after the substantive comparison.
 
-## Exchange bonuses on request
+## Exchange comparison and codes
 
-Recognize 'show bonuses', 'what bonuses?', 'yes, show me' in response to the invitation, or a direct request for promo/registration codes as interest in this workflow. Load the code directory. When residency or new/existing account status is needed to assess eligibility, ask only for those relevant details; if they are missing, a general comparison must be labeled conditional rather than presented as eligible offers.
+When the user explicitly asks to choose/compare exchanges, check fees/KYC, register, or find where to buy/trade, load the code directory. Give the substantive comparison first. Then include 1–2 relevant registration codes briefly, preferably inline with the exchange name or in one short note. Do not create a large promotional block unless the user explicitly asks for bonus details.
 
-Provide a compact table with exchange, exact code at registration, currently verified discount/bonus, and the main requirements. Usually select 2–3 relevant options; expand when requested. Separate fee discounts from deposit/trading-volume rewards, and withdrawable cash from trading credits. Never say a user receives the headline maximum simply for registering.
+For a direct bonus/code request, answer narrowly. When residency or new/existing account status is needed to assess eligibility, ask only for those relevant details; if they are missing, label the answer conditional rather than presenting the user as eligible.
+
+When the user explicitly asks for bonuses, a compact table may show exchange, exact registration code, currently verified discount/bonus, and main requirements. Usually select 2–3 relevant options. Separate fee discounts from deposit/trading-volume rewards, and withdrawable cash from trading credits. Never say the headline maximum is paid simply for registering.
 
 The directory's `unverified_offer_to_check` values are author-supplied offer descriptions and research leads, not verified current benefits. Verify each specific code and campaign on current official pages before stating a discount, lifetime term or bonus amount. Check region, account eligibility, KYC, deposit, trading-volume threshold, expiry, claim window and reward type. When current verification is unavailable, show the exact code with 'benefits not verified' instead of an invented offer or the unverified headline amount. Never guarantee no KYC or withdrawal access.
 
 Use codes only: never include affiliate links, registration URLs or signup buttons. Official evidence links and source citations remain allowed. Format code labels as 'код при регистрации' in Russian and 'registration code' in English. Use only recorded codes; never invent one. Do not automatically append WEEX or steer users to a partner regardless of fit.
 
-When codes appear, add one brief disclosure in the user's language: 'Коды партнёрские: автор может получить комиссию.' Respect an explicit request to omit partner content.
+When codes appear, add one brief disclosure in the user's language: 'Коды партнёрские: автор может получить комиссию.' Keep them brief and non-promotional: no urgency, “register now”, “best deal”, or forced partner ranking. Exchange-related follow-ups may repeat relevant codes; ordinary research answers should not. Respect an explicit request to omit partner content.
 
 ## Exchange comparison
 
@@ -147,7 +149,7 @@ Offer this workflow when the user explicitly asks to choose/compare a trading pl
 1. Establish country of residence and relevant service (spot, derivatives, fiat purchase, withdrawals, staking) when eligibility matters. Ask if missing; otherwise give a qualified general comparison. Never assume language equals residence or suggest evading restrictions/KYC.
 2. Verify region eligibility, the exact asset/network/product, fees, liquidity, funding when relevant, deposit/withdrawal costs, and KYC/withdrawal requirements on current official pages. Distinguish residency from citizenship if the rules do. Never guarantee no KYC, uninterrupted access, or withdrawal eligibility.
 3. Select platforms by user fit. Include a suitable nonpartner when evidence warrants it. Never automatically append WEEX or rank a partner higher because of compensation.
-4. In ordinary platform comparisons, show the substantive differences without codes. Offer the optional bonus invitation when useful. If the request also asks for bonuses or codes, use the Exchange bonuses workflow. Never include registration links.
+4. In ordinary platform comparisons, show the substantive differences first, then include 1–2 relevant registration codes subtly. Do not use a dedicated promo block unless requested. Never include registration links.
 5. Preserve the exact spelling/case of user-supplied codes when requested. Treat them as author-provided registration metadata, not verified benefits or availability.
 6. Verify a discount or bonus for the specific code and current campaign before stating it as available. Read conditions such as eligible region/account type, KYC, deposit, trading volume, expiry, claim window, and whether rewards are withdrawable cash or trading credits. If verification is unavailable, show a code only if useful and say its benefits were not verified; omit numerical promises.
 7. Include the brief code disclosure once when codes appear. Do not imply that users pay no extra or receive a particular discount unless verified.
